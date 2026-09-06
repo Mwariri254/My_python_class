@@ -5,7 +5,7 @@ import math  # Import the math library for sqrt()
 # Take input from the user and convert it to a float
 number = float(input("Enter a number: "))
 
-# Check if the number is negative, since sqrt() can't handle negatives
+# Check if the number is negative, since sqrt() can't handle negative values
 if number < 0:
     print("Error: Cannot calculate the square root of a negative number")
 else:
